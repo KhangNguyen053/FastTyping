@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="panel panel-primary panel-typing">
+            <div class="panel-heading"><h3>Website Check Typing Speed Text</h3></div>
+            <div class="panel-body">
+                <div class="item-character" id="itemCharacter"></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label>Input</label><br />
+                        <input class="form-control" placeholder="Please input typing" id="typingInput">
+                    </div>
+                    <div class="col-md-2">
+                        <label>Time</label><br />
+                        <button class="btn btn-primary btn-lange" id="timeButton">
+                            <p id="showTime">60</p>
+                        </button>
+                    </div>
+                    <div class="col-md-2">
+                        <label style="color: green;">Word correct</label>
+                        <p id="wordCorrect">0</p>
+                    </div>
+                    <div class="col-md-2">
+                        <label style="color: red;">Word wrong</label>
+                        <p id="wordWrong">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
